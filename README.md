@@ -1,5 +1,3 @@
-"# " 
-
 
 # BiCycle Store Assignment2
 ### Create your products & orders.
