@@ -8,13 +8,34 @@
 
 <br>
 <h2>Features</h2>
-<li>Create Bicycle</li>
-<li>Get Bicycles using name, brand, price, type, etc.</li>
-<li>Get a Specific Bicycle</li>
-<li>Update a Bicycle</li>
-<li>Delete a Bicycle</li>
-<li>Order a Bicycle</li>
-<li>Calculate Revenue from Orders</li>
+<h4>1 . Create Bicycle</h4>
+ The data of bicycle is validated using schema validation, zod parser. Besides it'll show the success message and custom error message. 
+ <br>
+ 
+<h4>2 . Get Bicycles </h4>
+The bicycles can be got by using name, brand, price, type, etc.
+<br>
+
+<h4>3 . Get a Specific Bicycle</h4>
+Any specific bicycles can be found by its product Id.  Besides it'll show the success message and custom error message. 
+<br>
+
+<h4>4 . Update a Bicycle</h4>
+Any bicycle can be updated using its product Id. 
+
+<br>
+
+<h4>5 . Delete a Bicycle</h4>
+Bicycle can be deleted easily using product id.
+
+<br>
+
+<h4>6 . Order a Bicycle</h4>
+When the product is in stock then it'll be possible to place an order else it'll show Not in stock. Besides, when you'll try to order more than stock it'll show custom error message. When the quantity of a product is Zero(0) then inStack becomes false.
+<br>
+
+<h4>7 . Calculate Revenue from Orders</h4>
+The total revenue from orders can be calculated easily by get method.
 
 <br>
 
