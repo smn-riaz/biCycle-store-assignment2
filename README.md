@@ -9,24 +9,24 @@
 <br>
 <h2>Features</h2>
 <h4>1 . Create Bicycle</h4>
- The data of bicycle is validated using schema validation, zod parser. Besides it'll show the success message and custom error message. 
+A bicycle can be created using an exact format of data by POST method. The data of bicycle will be validated using schema validation, zod parser. Besides when you can successfully create a product, it'll show the success message and if any error is occured then a custom error message will be shown. 
  <br>
  
-<h4>2 . Get Bicycles </h4>
-The bicycles can be got by using name, brand, price, type, etc.
+<h4>2 . Get All Bicycles </h4>
+The bicycles can be got by GET method using name, brand, price, type, etc of the bicyles. It will return an array of data. If no data is found, it'll show a custom readable error message.
 <br>
 
 <h4>3 . Get a Specific Bicycle</h4>
-Any specific bicycles can be found by its product Id.  Besides it'll show the success message and custom error message. 
+Any specific bicycles can be found using its product Id by GET method.  Besides it'll show the success message and custom error message. 
 <br>
 
 <h4>4 . Update a Bicycle</h4>
-Any bicycle can be updated using its product Id. 
+Any bicycle can be updated using its product Id by PUT method. Besides, it will show the success message and updated information the bicycle.
 
 <br>
 
 <h4>5 . Delete a Bicycle</h4>
-Bicycle can be deleted easily using product id.
+Bicycle can be deleted easily using product id by DELETE method.
 
 <br>
 
@@ -35,7 +35,7 @@ When the product is in stock then it'll be possible to place an order else it'll
 <br>
 
 <h4>7 . Calculate Revenue from Orders</h4>
-The total revenue from orders can be calculated easily by get method.
+The total revenue from orders can be calculated easily by GET method.
 
 <br>
 
