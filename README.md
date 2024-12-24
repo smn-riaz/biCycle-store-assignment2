@@ -4,6 +4,7 @@
 
 
 ### `Live Website :` [BiCycle Store](https://bi-cycle-store-assignment2.vercel.app/)
+### `Explantion Video :` [Google Drive](https://drive.google.com/file/d/1jE52FeYpczqRlrBVezZ7ZdmGqK5F8u7X/view?usp=drive_link)
 
 
 <br>
